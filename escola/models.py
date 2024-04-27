@@ -29,6 +29,7 @@ class Matricula(models.Model):
             ('V', 'Vespertino'),
             ('N', 'Noturno')
     )
-    alunos = models.ForeignKey(Aluno, on_delete=models.CASCADE)
-    cursos = models.ForeignKey(Curso, on_delete=models.CASCADE)
-    nivel = models.CharField(max_length=1, choices=PERIODO, blank=False, null=False, default='M')
+    aluno = models.ForeignKey(Aluno, on_delete=models.CASCADE)
+    curso = models.ForeignKey(Curso, on_delete=models.CASCADE)
+    periodo = models.CharField(max_length=1, choices=PERIODO, blank=False, null=False, default='M')
+
