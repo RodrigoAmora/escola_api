@@ -3,8 +3,6 @@ Descrição:
 ----------
 API para gerenciamento de escola em Python usando Django Rest-Framework.
 
-<hr>
-
 Dependências:
 -------------
 Para instalar as dependências execute o comando no terminal:
@@ -25,5 +23,3 @@ Para rodar o projeto execute o comando no terminal:
 ```shell script
 python manage.py runserver 0.0.0.0:8080
 ```
-
-<hr>
