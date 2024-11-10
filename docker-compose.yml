@@ -1,24 +1,5 @@
 version: "3.7"
 services:
-  mysql-service:
-    image: mysql/mysql-server:8.0.32-1.2.11-server
-    command: --default-authentication-plugin=mysql_native_password
-    container_name: 'mysql-server'
-    volumes:
-      - /var/lib/mysql:/var/lib/mysql
-    networks:
-      - escola-api-network
-    restart: always
-    environment:
-      - MYSQL_USER=root
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_PASSWORD=rodrigo@1988
-      - MYSQL_DATABASE=eventos_ti
-      - MYSQL_ROOT_HOST=127.0.0.1
-    ports:
-      - "3306:3306"
-    expose:
-      - '3306'
   web-django:
     build:
       context: .
@@ -32,8 +13,6 @@ services:
     - "8000:8000"
     expose:
       - "8000"
-    links:
-      - mysql-service
 networks:
   escola-api-network:
     driver: bridge
