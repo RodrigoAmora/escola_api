@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 Banco de dados:
 ---------------
-O pojeto usa o MySQL.<br>
+O pojeto usa o SQLite.<br>
 Para criar as tabelas no banco de dados, rode as migrations executando o comando terminal:
 ```shell script
 python manage.py migrate
