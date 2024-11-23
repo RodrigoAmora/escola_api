@@ -27,7 +27,7 @@ python manage.py runserver 0.0.0.0:8080
 
 Docker:
 -------
-Para rodar o projeto em um container Docker, primeiro deve-se gerar o .jar do projeto.<br>
+Para rodar o projeto no Docker, deve-se gerar o build das imagens e depois subir os containers.<br>
 Após isso, deve-se gerar o build das imagens e subir os containers do Docker.<br><br>
 <b>Fazendo o build das imagens:</b>
 ```shell script
