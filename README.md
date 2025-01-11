@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Banco de dados:
 ---------------
 O pojeto usa o SQLite.<br>
-Para criar as tabelas no banco de dados, rode as migrations executando na raiz do projeto:
+Para criar as tabelas no banco de dados, rode as migrations executando o comando abaixo na raiz do projeto:
 ```shell script
 python manage.py migrate
 ```
