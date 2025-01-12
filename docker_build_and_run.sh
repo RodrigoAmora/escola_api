@@ -10,11 +10,10 @@ echo -e "\033[01;32m##############\033[01;32m"
 echo -e "\n"
 
 docker_image=$(docker images web-django)
-
 if [[ ! -z "${docker_image}" ]]; then
 	echo -e "\033[01;32mDeleting image that run application....\033[01;32m"
 	echo -e "\n"
-	docker rmi -f $docker_image
+	docker rmi -f web-django
 	echo -e "\n"
 fi
 
