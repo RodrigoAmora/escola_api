@@ -5,7 +5,7 @@ API para gerenciamento de escola em Python usando Django Rest-Framework.
 
 Dependências:
 -------------
-Para instalar as dependências execute o comando na raiz do projeto:
+Para instalar as dependências, execute o comando na raiz do projeto:
 ```shell script
 pip install -r requirements.txt
 ```
@@ -20,7 +20,7 @@ python manage.py migrate
 
 Rodando o projeto:
 ------------------
-Para rodar o projeto execute o comando na raiz do projeto: 
+Para rodar o projeto, execute o comando na raiz do projeto: 
 ```shell script
 python manage.py runserver 0.0.0.0:8080
 ```
