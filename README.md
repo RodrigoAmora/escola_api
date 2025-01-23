@@ -10,9 +10,25 @@ Para instalar as dependências, execute o comando na raiz do projeto:
 pip install -r requirements.txt
 ```
 
+Documentação:
+-------------
+A documentação dos enpoints pode se acessada através do Swagger e do Redoc.
+##
+Documentação via Swagger:
+```shell script
+http://localhost:8000/swagger/
+```
+
+##
+Documentação via Redoc:
+```shell script
+http://localhost:8000/redoc/
+```
+
 Banco de dados:
 ---------------
-O pojeto usa o SQLite.<br>
+O pojeto usa o SQLite.
+##
 Para criar as tabelas no banco de dados, rode as migrations executando o comando abaixo na raiz do projeto:
 ```shell script
 python manage.py migrate
