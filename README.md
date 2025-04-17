@@ -60,3 +60,10 @@ Para automatizar esse processo, basta executar o Shellscript <b>`docker_build_an
 ```shell script
 ./docker_build_and_run.sh
 ```
+
+Author:
+-------
+<b>Rodrigo Amora</b>
+
+LinkedIn: https://linkedin.com/in/rodrigoamora <br>
+E-mail: rodrigo.amora.freitas@gmail.com
