@@ -61,7 +61,7 @@ Para automatizar esse processo, basta executar o Shellscript <b>`docker_build_an
 ./docker_build_and_run.sh
 ```
 
-Author:
+Autor:
 -------
 <b>Rodrigo Amora</b>
 
